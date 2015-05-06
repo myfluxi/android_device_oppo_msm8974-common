@@ -37,9 +37,6 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := krait
 #TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 
-# Assertions
-TARGET_BOARD_INFO_FILE ?= device/oppo/msm8974-common/board-info.txt
-
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := device/oppo/msm8974-common/mkbootimg.mk
 BOARD_KERNEL_BASE := 0x00000000
